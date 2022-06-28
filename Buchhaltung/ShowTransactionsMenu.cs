@@ -63,7 +63,10 @@
 
         private void PrintTransactionsFromTo(DateTime startDate, DateTime endDate)
         {
-            foreach(Transaction transaction in ProfileManager.CurrentProfile.Transactions)
+            // Liste nach Datum sortieren https://stackoverflow.com/questions/3309188/how-to-sort-a-listt-by-a-property-in-the-object
+            List<Transaction> sortedTransactions = ProfileManager.CurrentProfile.Transactions.OrderBy(o=>o.Date).ToList();
+
+            foreach(Transaction transaction in sortedTransactions)
             {
                 if (transaction.Date >= startDate && transaction.Date <= endDate)
                 {
