@@ -17,7 +17,8 @@ namespace Buchhaltung
             Console.WriteLine("[1] Neues Profil anlegen");
             Console.WriteLine("[2] Profil laden");
             Console.WriteLine();
-            //Console.WriteLine("[3] Programm beenden");
+            Console.WriteLine("[3] Programm beenden");
+            Console.WriteLine();
 
             InputOption();
         }
@@ -41,6 +42,9 @@ namespace Buchhaltung
                         break;
                     case "2":
                         nextMenu = new LoadProfileMenu();
+                        break;
+                        case"3":
+                        Environment.Exit(0);
                         break;
                     default:
                         correctInput = false;
