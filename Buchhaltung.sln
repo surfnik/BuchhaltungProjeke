@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buchhaltung", "Buchhaltung\Buchhaltung.csproj", "{4C48E918-FC10-4F76-B017-FB9F7DF57C2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C48E918-FC10-4F76-B017-FB9F7DF57C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C48E918-FC10-4F76-B017-FB9F7DF57C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C48E918-FC10-4F76-B017-FB9F7DF57C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C48E918-FC10-4F76-B017-FB9F7DF57C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47C97CE9-B6B0-4495-BB52-ACC69F27FB61}
+	EndGlobalSection
+EndGlobal
