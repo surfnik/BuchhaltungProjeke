@@ -31,7 +31,7 @@ namespace Buchhaltung
                 switch (input)
                 {
                     case "1":
-                        //nextMenu = new NewTransactionMenu();
+                        nextMenu = new NewTransactionMenu();
                         break;
                     case "2":
                         //nextMenu = new ShowTransactionsMenu();

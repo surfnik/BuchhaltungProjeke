@@ -19,5 +19,12 @@ namespace Buchhaltung
             Ballance = ballance;
             Transactions = new List<Transaction>();
         }
+
+        public void AddTransaction(Transaction transaction)
+        {
+            Transactions.Add(transaction);
+            Ballance += transaction.Ammount;
+            ProfileManager.SaveProfile(this);
+        }
     }
 }
