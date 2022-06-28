@@ -40,7 +40,7 @@ namespace Buchhaltung
                         nextMenu = new CreateProfileMenu();
                         break;
                     case "2":
-                        //nextMenu = new LoadProfileMenu();
+                        nextMenu = new LoadProfileMenu();
                         break;
                     default:
                         correctInput = false;
