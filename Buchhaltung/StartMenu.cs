@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Buchhaltung
 {
-    internal class StarMenu : Menu
+    internal class StartMenu : Menu
     {
         public override void DisplayMenu()
         {

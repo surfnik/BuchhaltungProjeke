@@ -18,8 +18,7 @@ namespace Buchhaltung
 
             ProfileManager.CreateProfile(profileName, profileStarBallance);
 
-            Console.WriteLine("Das Pofil wurde angelegt");
-            Console.ReadKey();
+            Menu nextMenu = new MainMenu();
         }
 
         private string InputName()

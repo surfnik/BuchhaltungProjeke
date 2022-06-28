@@ -14,11 +14,11 @@ namespace Buchhaltung
             if (profilePath != "cancel")
             {
             ProfileManager.LoadProfile(profilePath);
-                //Menu nextMenu = new MainMenu();
+            Menu nextMenu = new MainMenu();
             }
             else
             {
-                Menu nextMenu = new StarMenu();
+                Menu nextMenu = new StartMenu();
             }
         }
 
